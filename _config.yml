@@ -1,0 +1,21 @@
+title: 傷寒論（宋本）原文・注・現代語訳
+description: 宋本『傷寒論』の原文（句読点つき），校異，成無己注，日本語訳・英訳と解説
+lang: ja
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+plugins:
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+relative_links:
+  enabled: true
+  collections: false
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+exclude:
+  - README.md
+  - LICENSE
