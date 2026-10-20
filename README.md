@@ -51,11 +51,11 @@ NN_篇名/
 ## 権利とライセンス
 
 - **古典の文**（『傷寒論』の本文，成無己注，序・跋などの文）：パブリックドメイン。電子テキストの元になった資料の文を引くときは出典を示している。
-- **このプロジェクトで新しく書いたもの**（句読点，校異・校訂・注釈の説明，日本語訳・英訳，解説，YAML の情報など）：LLM（Claude）を使って作成したもの。[クリエイティブ・コモンズ 表示 4.0 国際（CC BY 4.0）](https://creativecommons.org/licenses/by/4.0/deed.ja)で提供する。利用・改変・再配布・商用利用ができる。利用するときは出典として「傷寒論（宋本）原文・注・現代語訳（Hideaki Takata）」とこのリポジトリを示すこと。詳しくは `LICENSE`。
+- **このプロジェクトで新しく書いたもの**（句読点，校異・校訂・注釈の説明，日本語訳・英訳，解説，YAML の情報など）：LLM（Claude）を使って作成したもの。[クリエイティブ・コモンズ 表示-継承 4.0 国際（CC BY-SA 4.0）](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)で提供する。利用・改変・再配布・商用利用ができる。利用するときは出典として「傷寒論（宋本）原文・注・現代語訳（Hideaki Takata）」とこのリポジトリを示すこと。改変したものを配布するときは，同じ CC BY-SA 4.0（またはその互換ライセンス）で提供すること。詳しくは `LICENSE`。
 - 訳と解説は LLM によるもので，誤りがありうる。臨床に用いる判断の根拠にはしないこと。
 
 ---
 
 **English summary**: Song edition of the *Shanghan lun* (Treatise on Cold Damage), split into small units (clauses 1–398 for the six-channel chapters; paragraphs elsewhere). Each unit file contains the classical text (Japanese shinjitai), textual variants among sources, editorial emendations, and Cheng Wuji's commentary; each unit also has Japanese (`.ja.md`) and English (`.en.md`) translations of the text and commentary, with explanatory notes. Each file starts with YAML metadata.
 
-**License**: The classical texts are in the public domain. Punctuation, notes, translations, and other material newly written for this project (with the help of an LLM, Claude) are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Translations and notes may contain errors and are not medical advice.
+**License**: The classical texts are in the public domain. Punctuation, notes, translations, and other material newly written for this project (with the help of an LLM, Claude) are licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Translations and notes may contain errors and are not medical advice.
